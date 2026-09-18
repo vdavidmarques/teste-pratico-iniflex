@@ -1,7 +1,8 @@
 # Teste Prático de Programação - Iniflex
 
-Este repositório contém a resolução do teste prático técnico para o processo seletivo da empresa **Iniflex**. O projeto foi desenvolvido com o objetivo de demonstrar boas práticas de Orientação a Objetos, manipulação de coleções, formatação de dados e cálculos numéricos de alta precisão.
+Este repositório contém a resolução do teste prático técnico para o processo seletivo da empresa **Prothera tecnologia**. O projeto foi desenvolvido com o objetivo de demonstrar boas práticas de Orientação a Objetos, manipulação de coleções, formatação de dados e cálculos numéricos de alta precisão.
 
+> **Nota:** A numeração dos requisitos no enunciado original pula de 3.6 para 3.8. O item 3.7 não foi especificado. Segui apenas os itens listados.
 ---
 
 ## 🛠️ Tecnologias e Conceitos Aplicados
@@ -33,6 +34,19 @@ Este repositório contém a resolução do teste prático técnico para o proces
 
 ---
 
+## 📁 Estrutura do Projeto
+
+```
+.
+├──src
+   ├──├── Pessoa.java
+   ├──├── Funcionario.java
+   ├──├── Principal.java
+└── README.md
+```
+
+---
+
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
@@ -41,16 +55,16 @@ Este repositório contém a resolução do teste prático técnico para o proces
 ### Passo a Passo
 
 1. **Clonar o repositório:**
-   ```js
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
-   cd NOME_DO_REPOSITORIO
+   ```bash
+   git clone https://github.com/vdavidmarques/teste-pratico-iniflex
+   cd teste-pratico-iniflex
    ```
 2. ***Compilar as classes:**
-   ```js
-       javac Pessoa.java Funcionario.java Principal.java
+   ```bash
+      javac -d bin Pessoa.java Funcionario.java Principal.java
    ```
 
 3. ***Executar a aplicação:**
-   ```js
-   java Principal
+   ```bash
+      java -cp bin Principal
    ```
