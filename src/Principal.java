@@ -81,7 +81,7 @@ public class Principal {
         System.out.println("\n--- Quantidade de Salários Mínimos ---");
         funcionarios.forEach(f -> {
             BigDecimal qtd = f.getSalario().divide(salarioMinimo, 2, RoundingMode.HALF_UP);
-            System.out.println(f.getNome() + " ganha " + qtd + " salários mínimos.");
+            System.out.println(f.getNome() + " ganha " + qtd.toString().replace(".", ",") + " salários mínimos.");
         });
     }
 }
